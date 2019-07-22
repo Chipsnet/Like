@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Like?",
+    "version": "1.0.1.0",
+    "description": "YouTubeの低評価からあなたを守ります。",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "css": [
+                "main.css"
+            ]
+        }
+    ]
+}
